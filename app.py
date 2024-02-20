@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, world!'
+    return 'IO_END'
 
 @app.route('/run', methods=["POST"])
 def run_code():
