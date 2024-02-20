@@ -3,6 +3,8 @@ import os
 import sys
 import subprocess
 import io
+import traceback
+
 app = Flask(__name__)
 
 @app.route('/')
