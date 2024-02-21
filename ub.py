@@ -26,11 +26,11 @@ api_id = 21447825
 
 api_hash = "6c074053121dd6489ead2910821395b9"
 
-bot_token = "7063842591:AAFU-XgO86XnGbJUYU9WH2Ihl82YnUdV1_0"
+bot_token = "7063842591:AAFmErAZwWsfFI53k0Q3EY7Zy47h4PwEXnA"
 
 owner = 6721958943
 
-BOT = TelegramClient("io_end", api_id, api_hash).start(bot_token=bot_token)
+BOT = TelegramClient("9XO", api_id, api_hash).start(bot_token=bot_token)
 
 print(BOT.get_me())
 
